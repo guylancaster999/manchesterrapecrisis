@@ -1,0 +1,170 @@
+body,p
+{
+	font-size:12pt;
+	font-weight:normal;
+	font-family: Arial,sans-serif;
+}
+.h4
+{
+	color:	 purple;
+	font-size:12pt;
+	font-weight:bold;
+}
+h1
+{
+color: #660099;
+text-align:left;
+font-family: sans-serif;
+font-size:2.5em;
+padding-left: 10px;
+}
+h2
+{
+color: #660099;
+text-align:left;
+font-family: sans-serif;
+font-size:2em;
+padding-left: 10px;
+}
+h3
+{
+font-size:1.5em;
+color: #660099;
+line-height:160%;
+}
+h5
+{
+font-family: sans-serif;
+color:purple;
+padding-left: 10px;
+}
+h6
+{
+font-family: sans-serif;
+text-align:center;
+}
+ 
+.description 
+  {font-size:12pt;
+	margin: 5px 0 5px 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.description em {
+  color:purple;
+ font-weight: bold;
+ }
+ .picCenter
+{
+	 display: 	block;
+	margin-right: auto;
+	margin-left: auto;
+}
+  #nav {
+position:absolute;
+left:100px;
+top:120px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  margin: 0 0 3em;
+  width: 100%;
+list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+  background-color: #660099;
+  font-family: Arial,Helvetica,sans-serif;
+}
+#nav li {
+  float: left;
+padding-right: 5px;
+}
+#nav li a {
+  border-right: 1px solid #cccccc;
+  padding: 8px 15px;
+  display: block;
+  text-decoration: none;
+  font-size: 13pt;
+  font-weight: bold;
+  color: #ffffff;
+}
+#nav li a:hover {
+  color: #660066;
+  background-color: #ffffff;
+}
+#helpline {
+ font-weight: bold;
+font-family: sans-serif;
+font-size:1em
+}
+#helpline em {
+ font-weight: bold;
+font-family: sans-serif;
+color:purple;
+font-style: normal;
+}
+#hide {
+  float: right;
+background-color: red;
+padding: 10px;
+margin-left: 10px;
+margin-right: 10px;
+    border-radius: 20px;  
+text-shadow: 2px 2px 1px black;
+    box-shadow: 8px 8px 15px black;
+}
+#hide a {
+text-shadow: 2px 2px 1px black;
+color:white;
+}
+.hide {
+color:red !important;
+}
+#main {
+  float: left;
+margin: 10px;
+}
+.image {
+  float: left;
+  margin: 10px;
+}
+#left {
+  float: left;
+border-width: 1px;
+border-style: solid;
+border-color: purple;
+padding-right: 5px;
+padding-left: 5px;
+margin-right: 55px;
+padding-bottom:3cm;
+}
+#left a 
+{
+  color: #660099;
+}
+#picture {
+padding: 10px;
+text-align: center;
+}
+.info {
+text-align: center;
+color: #339933
+}
+#footer {
+  float: left;
+bottom: 0;
+padding-right: 5px;
+padding-left: 5px;
+}
+.purpletext
+{
+	font-weight:bold;
+	color:purple;
+}
+.greentext
+{
+	font-weight:bold;
+	color:green;
+}
+.brclear
+{clear:both;
+}
