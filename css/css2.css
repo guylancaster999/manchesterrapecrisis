@@ -31,7 +31,7 @@ h3
 font-size:1.5em;
 color: #660099;
 line-height:160%;
-}
+text-align:center;}
 h5
 {
 font-family: sans-serif;
@@ -168,3 +168,6 @@ padding-left: 5px;
 .brclear
 {clear:both;
 }
+ul.disc {list-style-type: disc;}
+ul.circle {list-style-type: circle;}
+ul.square {list-style-type: square;}

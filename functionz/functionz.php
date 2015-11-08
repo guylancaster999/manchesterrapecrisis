@@ -56,11 +56,11 @@ function top($pg)
 					<li><a href="links.php" title="Web Links">Links</a></li>
 					<li><a href="http://www.google.com">LEAVE THIS SITE</a></li>
 				</ul>
-			</div>
+		</div>
 		</div>
 		<div class="row">
 			<div class="col-12"> 
-				<br clear="all"/>
+				<br class="brclear"/>
 				<br/>
 				<h3>&nbsp;&nbsp;'.$pg.'</h3>
 			</div>
@@ -69,7 +69,8 @@ return;
 } 
 function foot()
 {
-	print '<div class="picCenter">
+	print '<footer>
+	<div class="picCenter">
 	<a href="#top" title="top of page" style="text-align:center">
 		top of page</a>
 	&nbsp;
@@ -77,7 +78,7 @@ function foot()
 	    <span class="glyphicon glyphicon-collapse-up"></span>
 	</a>
 	</div>
-	<br />';
+	</footer>';
 	print "
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;
