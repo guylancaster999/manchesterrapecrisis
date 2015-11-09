@@ -1,4 +1,12 @@
-body,p
+body
+{
+	padding-left:20px;
+	padding-right:20px;
+	font-size:12pt;
+	font-weight:normal;
+	font-family: Arial,sans-serif;
+}
+p
 {
 	font-size:12pt;
 	font-weight:normal;
@@ -30,7 +38,7 @@ h3
 {
 font-size:1.5em;
 color: #660099;
-line-height:160%;
+line-height:140%;
 text-align:center;}
 h5
 {
@@ -43,7 +51,6 @@ h6
 font-family: sans-serif;
 text-align:center;
 }
- 
 .description 
   {font-size:12pt;
 	margin: 5px 0 5px 0;
@@ -53,26 +60,27 @@ text-align:center;
 .description em {
   color:purple;
  font-weight: bold;
- }
- .picCenter
+}
+.picCenter
 {
 	 display: 	block;
 	margin-right: auto;
 	margin-left: auto;
 }
-  #nav {
-position:absolute;
-left:100px;
-top:120px;
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
-  margin: 0 0 3em;
-  width: 100%;
-list-style-type: none;
-  list-style-image: none;
-  list-style-position: outside;
-  background-color: #660099;
-  font-family: Arial,Helvetica,sans-serif;
+#nav 
+{
+	position:absolute;
+	left:10px;
+	top:120px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	margin: 0 0 3em;
+	width: 100%;
+	list-style-type: none;
+	List-style-image: none;
+	list-style-position: outside;
+	background-color: #660099;
+	font-family: Arial,Helvetica,sans-serif;
 }
 #nav li {
   float: left;

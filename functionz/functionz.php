@@ -1,13 +1,12 @@
 <?php
 function hdr($pg)
 {
-	print '
-	<!doctype html>
+	print '<!doctype html>
 	<html>
 	<head>
 		<title>Manchester Rape Crisis - '.$pg.'</title>
 		<meta name="description" content="Rape crisis centre manchester -'.$pg.'"/>
-		<meta name="keywords" content="Rape, crisis, centre, manchester, attack, therapy,'.$pg.'"/>
+		<meta name="keywords" content="Rape, crisis, centre, manchester, attack, therapy,counselling, ISVA, feminist, helpline,'.$pg.'"/>
 		<meta name="author" content="Guy Lancaster"/>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -27,17 +26,15 @@ function top($pg)
 			<div class="col-2 col-sm-2  col-md-2 col-lg-2">
 				&nbsp;<a id="top"></a>
 			</div>
-			<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+			<div class="col-4 col-sm-4 col-md-4 col-lg-4">
 				<a href="#" title="Manchester Rape Crisis">
-					<img   alt="Manchester Rape Crisis" src="images/header1.jpg">
+					<img alt="Manchester Rape Crisis" src="images/header1.jpg">
 				</a>
 			</div>
-			<div class="col-4" style="color:purple;
+			<div class="col-4" style="color:#660099;
 	font-size:18pt;
 	font-weight:bold;
-	padding-top:40px;">
-				LISTENING . BELIEVING . SUPPORTING
-			</div>
+	padding-top:40px;">LISTENING . BELIEVING . SUPPORTING</div>
 		</div>
 		<div class="row">
 			<div class="col-2 col-sm-2  col-md-2 col-lg-2">
@@ -54,14 +51,13 @@ function top($pg)
 					<li><a href="family.php" title="Family &amp; Friends">Family &amp; Friends</a></li>
 					<li><a href="volunteering.php"  title="Volunteering">Volunteering</a></li>
 					<li><a href="links.php" title="Web Links">Links</a></li>
-					<li><a href="http://www.google.com">LEAVE THIS SITE</a></li>
+					<li><a href="http://www.google.com">LEAVE SITE</a></li>
 				</ul>
 		</div>
 		</div>
 		<div class="row">
 			<div class="col-12"> 
 				<br class="brclear"/>
-				<br/>
 				<h3>&nbsp;&nbsp;'.$pg.'</h3>
 			</div>
 		</div>';
