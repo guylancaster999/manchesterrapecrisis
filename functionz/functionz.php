@@ -26,15 +26,12 @@ function top($pg)
 			<div class="col-1 col-sm-1  col-md-1 col-lg-1">
 				&nbsp;<a id="top"></a>
 			</div>
-			<div class="col-4 col-sm-4 col-md-4 col-lg-4">
-				<a href="#" title="Manchester Rape Crisis">
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+				<a href="index.php" title="Manchester Rape Crisis Centre">
 					<img alt="Manchester Rape Crisis" src="images/header1.jpg" CLASS="img-responsive">
 				</a>
 			</div>
-			<div class="col-4" style="color:#660099;
-	font-size:18pt;
-	font-weight:bold;
-	padding-top:40px;">LISTENING . BELIEVING . SUPPORTING</div>
+			<div class="col-8 col-sm-8 col-md-8 col-lg-8"><h1>LISTENING&nbsp;.&nbsp;BELIEVING&nbsp;.&nbsp;SUPPORTING</h1></div>
 		</div>
 		<div class="row">
 			<div class="col-2 col-sm-2  col-md-2 col-lg-2">
@@ -42,7 +39,7 @@ function top($pg)
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12">  	
+			<div class="col-12">
 				<ul id="nav">
 					<li><a href="index.php" title="Home Page">Home</a></li>
 					<li><a href="about.php" title="About Us">About</a></li>
@@ -53,27 +50,32 @@ function top($pg)
 					<li><a href="links.php" title="Web Links">Links</a></li>
 					<li><a href="http://www.google.com">LEAVE SITE</a></li>
 				</ul>
-		</div>
+			</div>
 		</div>
 		<div class="row">
-			<div class="col-12"> 
+			<div class="col-12">
 				<br class="brclear"/>
-				<h3>&nbsp;&nbsp;'.$pg.'</h3>
+				<h2>&nbsp;&nbsp;'.$pg.'</h2>
 			</div>
 		</div>';
 return;
-} 
+}
 function foot()
 {
-	print '<div class="picCenter">
-	<a href="#top" title="top of page" style="text-align:center">
-		top of page</a>
-	&nbsp;
-	<a href="#top" title="top of page">
-	    <span class="glyphicon glyphicon-collapse-up"></span>
-	</a>
-	</div>
-	<br/><br/>';
+	print '
+	<div class="picCenter">
+		<br/>
+		<br/>
+		<a href="#top" title="top of page" style="text-align:center">
+			top of page
+		</a>
+		&nbsp;
+		<a href="#top" title="top of page">
+			<span class="glyphicon glyphicon-collapse-up"></span>
+		</a>
+		<br/>
+		<br/>
+	</div>';
 	print "
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;
@@ -81,10 +83,9 @@ function foot()
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-3773540-22', 'auto');
   ga('send', 'pageview');
-</script>";
+	</script>";
 	return;
 }
 ?>
